@@ -68,6 +68,45 @@ a {
   text-decoration: underline;
 }
 
+/* SEARCHING AREA */
+/* ------------------------- */
+.searching-area {
+  margin: 40px 20px;
+}
+
+.searching-area h1 {
+  font-size: 1.4em;
+  margin: 0 0 15px 0;
+}
+
+.city-search-form {
+  margin: 30px 0;
+}
+
+.filters-area {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filters-area > p {
+  width: 100%;
+  margin: 0 0 12px 0;
+}
+
+.filter-item {
+  margin: 7px 10px;
+  display: flex;
+}
+
+.infos {
+  display: flex;
+  margin: 23px 0;
+}
+
+.infos-text {
+  margin: 0 0 0 10px;
+}
+
 
 /* MEDIA QUERIES */
 /* ------------------------- */
