@@ -227,7 +227,7 @@ a {
 }
 
 .most-popular-card img {
-  max-width: 128px;
+  width: 128px;
   height: 133px;
   object-fit: cover;
   border-radius: 10px 0 0 10px;
