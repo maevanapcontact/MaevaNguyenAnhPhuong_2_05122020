@@ -11,6 +11,12 @@ a {
   color: #000;
 }
 
+.card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #ccc;
+}
+
 /* PAGE HEADER */
 /* ------------------------- */
 
@@ -168,7 +174,7 @@ a {
 .infos {
   display: flex;
   align-items: flex-start;
-  margin: 23px 0;
+  margin: 23px 0 0 0;
 }
 
 .info-mark {
@@ -188,10 +194,79 @@ a {
   margin: 0 0 0 10px;
 }
 
+/* MAIN PAGE */
+/* ------------------------- */
+
+/* MOST POPULAR AREA */
+/* ------------------------- */
+.most-popular-area {
+  background: #f2f2f2;
+  padding: 40px 20px 15px 20px;
+  max-width: 340px;
+}
+
+.most-popular-area header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 0 20px 0;
+}
+
+.header-icon {
+  font-size: 1.5em;
+}
+
+.most-popular-card {
+  padding: 7px;
+  margin: 0 0 10px 0;
+}
+
+.most-popular-card a {
+  display: flex;
+}
+
+.most-popular-card img {
+  max-width: 128px;
+  height: 133px;
+  object-fit: cover;
+  border-radius: 10px 0 0 10px;
+}
+
+.most-popular-card-infos {
+  margin: 15px 0 10px 20px;
+  font-size: 0.8em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.most-popular-card-infos h3 {
+  margin: 0 0 5px 0;
+}
+
+.card-stars {
+  font-size: 0.8em;
+  color: #d9d9d9;
+}
+
+.stars-filled {
+  color: #0065fc;
+}
 
 /* MEDIA QUERIES */
 /* ------------------------- */
 /* ------------------------- */
+@media screen and (min-width: 420px) {
+  /* MOST POPULAR AREA */
+  /* ------------------------- */
+  .most-popular-area {
+    padding: 40px 40px 15px 40px;
+    border-radius: 15px;
+  }
+}
+
 @media screen and (min-width: 600px) {
   /* PAGE HEADER */
 /* ------------------------- */
