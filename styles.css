@@ -196,12 +196,17 @@ a {
 
 /* MAIN PAGE */
 /* ------------------------- */
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* MOST POPULAR AREA */
 /* ------------------------- */
 .most-popular-area {
   background: #f2f2f2;
-  padding: 40px 20px 15px 20px;
+  padding: 40px 20px 25px 20px;
   max-width: 340px;
 }
 
@@ -220,6 +225,7 @@ a {
 .most-popular-card {
   padding: 7px;
   margin: 0 0 10px 0;
+  max-width: 326px;
 }
 
 .most-popular-card a {
@@ -265,10 +271,16 @@ a {
   margin: 0 0 20px 0;
 }
 
+.main-accomodation-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .main-accomodation-card {
   max-width: 330px;
   padding: 7px;
-  margin: 0 0 10px 0;
+  margin: 0 5px 10px 5px;
 }
 
 .main-accomodation-card img {
@@ -307,20 +319,24 @@ a {
   /* MOST POPULAR AREA */
   /* ------------------------- */
   .most-popular-area {
-    padding: 40px 40px 15px 40px;
     border-radius: 15px;
+    padding: 40px 40px 15px 40px;
+  }
+
+  .most-popular-card {
+    width: 326px;
   }
 }
 
 @media screen and (min-width: 600px) {
   /* PAGE HEADER */
-/* ------------------------- */
+  /* ------------------------- */
   .page-header {
     margin: 0 50px;
   }
 
   /* PAGE NAV */
-/* ------------------------- */
+  /* ------------------------- */
   .page-nav {
     justify-content: normal;
   }
@@ -379,5 +395,52 @@ a {
     width: auto;
     padding: 0 20px 0 0;
     margin: 0;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  /* MAIN PAGE */
+  /* ------------------------- */
+  .main-page {
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0 50px;
+  }
+
+  /* MAIN ACCOMODATIONS AREA */
+  /* ------------------------- */
+  .main-accomodation-area {
+    order: -1;
+    background: #f2f2f2;
+    border-radius: 15px;
+    margin: 0 40px 0 0;
+    padding: 40px 10px 15px 40px;
+  }
+
+  .main-accomodation-cards {
+    justify-content: center;
+  }
+
+  .main-accomodation-card {
+    max-width: 226px;
+    margin: 0 30px 30px 0;
+  }
+
+  /* MOST POPULAR AREA */
+  /* ------------------------- */
+  .most-popular-area {
+    padding: 40px 40px 0 40px;
+  }
+
+  .most-popular-card {
+    margin: 0 0 35px 0;
+  }
+}
+
+@media screen and (min-width: 1430px) {
+  /* MAIN PAGE */
+  /* ------------------------- */
+  .main-page {
+    align-items: stretch;
   }
 }
