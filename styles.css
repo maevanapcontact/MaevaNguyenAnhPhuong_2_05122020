@@ -312,6 +312,33 @@ a {
   text-decoration: underline;
 }
 
+/* ACTIVITIES AREA */
+/* ------------------------- */
+.activities-area {
+  padding: 0 20px;
+}
+
+.activities-area h2 {
+  margin: 0 0 20px 0;
+}
+
+.activites-card {
+  margin: 0 0 25px 0;
+}
+
+.activites-card img {
+  width: 100%;
+  max-width: 335px;
+  height: 94px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.activites-card h3 {
+  font-size: 0.9em;
+  padding: 15px;
+}
+
 /* MEDIA QUERIES */
 /* ------------------------- */
 /* ------------------------- */
