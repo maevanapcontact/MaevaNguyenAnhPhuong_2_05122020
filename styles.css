@@ -122,46 +122,35 @@ a {
   font-size: 1.1em;
 }
 
-.search-btn-large {
-  display: none;
-}
-
-.search-btn-small {
-  background: #0065fc;
-  color: #fff;
-  font-size: 1.1em;
-  border-radius: 15px;
-  height: 100%;
-  padding: 0 18px;
-  border: none;
-}
-
 .filters-area {
   display: flex;
   flex-wrap: wrap;
   font-weight: bold;
 }
 
-.filters-area > p {
+.filters-area > span {
   width: 100%;
   margin: 0 0 12px 0;
   font-size: 1.1em;
 }
 
 .filter-item {
+  background: #fff;
   margin: 7px 10px;
   display: flex;
   border: 2px solid #d9d9d9;
   border-left: none;
   border-radius: 60px;
-  height: 45px;
+  height: 49px;
 
   display: flex;
   align-items: center;
 }
 
-.filter-item p {
-  padding: 0 15px;
+.filter-item span {
+  padding: 0 22px 0 14px;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 .filter-item-icon {
@@ -283,7 +272,7 @@ a {
 }
 
 .main-accomodation-card {
-  max-width: 330px;
+  width: 330px;
   padding: 7px;
   margin: 0 5px 10px 5px;
 }
@@ -300,7 +289,8 @@ a {
   padding: 5px;
 }
 
-.main-accomodation-card-infos p {
+.main-accomodation-card-infos span {
+  display: block;
   margin: 3px 0 6px 0;
 }
 
@@ -442,27 +432,11 @@ a {
     margin: 20px 0;
   }
 
-  .search-btn-small {
-    display: none;
-  }
-
-  .search-btn-large {
-    display: block;
-    padding: 0 18px;
-    height: 100%;
-    background: #0065fc;
-    border: none;
-    font-size: 1.05em;
-    color: #fff;
-    font-weight: bold;
-    border-radius: 0 15px 15px 0;
-  }
-
   .filters-area {
     align-items: center;
   }
 
-  .filters-area > p {
+  .filters-area > span {
     width: auto;
     padding: 0 20px 0 0;
     margin: 0;
