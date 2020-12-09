@@ -352,6 +352,36 @@ a {
   padding: 15px;
 }
 
+/* PAGE FOOTER */
+/* ------------------------- */
+.page-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  background: #f2f2f2;
+  margin: 25px 0 0 0;
+  padding: 50px 20px 10px 20px;
+}
+
+.footer-elt {
+  min-width: 250px;
+}
+
+.footer-elt ul {
+  list-style-type: none;
+  margin: 20px 0;
+}
+
+.footer-elt li {
+  padding: 0 0 18px 0;
+}
+
+.footer-elt a:hover {
+  text-decoration: underline;
+  color: #0065fc;
+}
+
 /* MEDIA QUERIES */
 /* ------------------------- */
 /* ------------------------- */
