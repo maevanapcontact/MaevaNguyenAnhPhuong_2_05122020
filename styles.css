@@ -20,6 +20,16 @@ a {
   background: #fff;
   border-radius: 15px;
   box-shadow: 0 0 15px #ccc;
+  transition: box-shadow 0.5s;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px #888;
+}
+
+.card:hover h3 {
+  text-decoration: underline;
+  color: #0065fc;
 }
 
 /* PAGE HEADER */
@@ -223,6 +233,12 @@ a {
 }
 
 .info-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-mark i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -538,7 +554,11 @@ a {
     flex-wrap: wrap;
     justify-content: center;
   }
+}
 
+@media screen and (min-width: 780px) {
+  /* ACTIVITIES AREA */
+  /* ------------------------- */
   .activites-card {
     max-width: 300px;
     margin-left: 15px;
