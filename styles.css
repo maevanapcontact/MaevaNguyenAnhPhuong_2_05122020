@@ -23,12 +23,17 @@ a {
   transition: box-shadow 0.5s;
 }
 
+.card h3,
+.card span {
+  transition: color 0.5s;
+}
+
 .card:hover {
   box-shadow: 0 0 15px #888;
 }
 
-.card:hover h3 {
-  text-decoration: underline;
+.card:hover h3,
+.card:hover span {
   color: #0065fc;
 }
 
@@ -68,6 +73,7 @@ a {
   padding: 20px 0;
   border-bottom: 3px solid #f2f2f2;
   text-align: center;
+  transition: color 0.5s, border-color 0.5s;
 }
 
 .menu-links a:hover {
@@ -77,16 +83,19 @@ a {
 
 .resgistration-link {
   text-align: right;
-  padding: 25px 20px 0 0;
+  padding: 25px 10px 0 0;
 }
 
 .resgistration-link a {
   color: #0065fc;
   font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 15px;
+  transition: background-color 0.3s;
 }
 
 .resgistration-link a:hover {
-  text-decoration: underline;
+  background-color: #f2f2f2;
 }
 
 /* SEARCHING AREA */
@@ -115,21 +124,12 @@ a {
   border-radius: 60px;
 }
 
-.location-btn {
+.location-icon {
+  font-size: 1.3em;
+  padding: 15px 18px;
   background:  #f2f2f2;
   border: none;
   border-radius: 15px 0 0 15px;
-}
-
-.location-btn:hover {
-  background: #deebff;
-  color: #0065fc;
-}
-
-.location-btn i {
-  font-size: 1.3em;
-  height: 48px;
-  width: 48px;
 
   display: flex;
   justify-content: center;
@@ -150,10 +150,11 @@ a {
   color: #fff;
   border: none;
   border-radius: 15px;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .search-btn:hover {
-  background: #deebff;
+  background-color: #deebff;
   color: #0065fc;
 }
 
@@ -194,6 +195,9 @@ a {
 
   display: flex;
   align-items: center;
+
+  transition-property: border-color, color, box-shadow;
+  transition-duration: 0.5s;
 }
 
 .filter-item:hover {
@@ -203,7 +207,7 @@ a {
 }
 
 .filter-item:hover .filter-item-icon {
-  background:#0065fc;
+  background-color:#0065fc;
   color: #fff;
 }
 
@@ -224,6 +228,8 @@ a {
   width: 49px;
   border-radius: 30px;
   font-size: 1.3em;
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
 }
 
 .infos {
@@ -369,11 +375,11 @@ a {
   font-weight: bold;
   font-size: 1.2em;
   margin: 25px 0;
+  transition: color 0.3s;
 }
 
 .show-more-btn:hover {
   cursor: pointer;
-  text-decoration: underline;
   color: #0065fc;
 }
 
@@ -437,8 +443,11 @@ a {
   padding: 0 0 18px 0;
 }
 
+.footer-elt a {
+  transition: color 0.3s;
+}
+
 .footer-elt a:hover {
-  text-decoration: underline;
   color: #0065fc;
 }
 
