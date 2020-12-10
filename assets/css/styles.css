@@ -1,0 +1,21 @@
+/* GENERAL */
+/* ------------------------- */
+@import 'general.css';
+
+/* PAGE HEADER */
+/* ------------------------- */
+@import 'header.css';
+
+/* MAIN PAGE */
+/* ------------------------- */
+@import 'main-page.css';
+
+/* PAGE FOOTER */
+/* ------------------------- */
+@import 'footer.css';
+
+
+/* MEDIA QUERIES */
+/* ------------------------- */
+@import 'media-queries.css';
+

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #ccc;
+  transition: box-shadow 0.5s;
+}
+
+.card h3,
+.card span {
+  transition: color 0.5s;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px #888;
+}
+
+.card:hover h3,
+.card:hover span {
+  color: #0065fc;
+}

@@ -1,0 +1,193 @@
+@media screen and (min-width: 420px) {
+  /* MOST POPULAR AREA */
+  /* ------------------------- */
+  .most-popular-area {
+    border-radius: 15px;
+    padding: 40px 40px 15px 40px;
+  }
+
+  .most-popular-card {
+    width: 326px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  /* PAGE HEADER */
+  /* ------------------------- */
+  .page-header,
+  .main-page {
+    margin: 0 50px;
+  }
+
+  /* PAGE NAV */
+  /* ------------------------- */
+  .page-nav {
+    justify-content: normal;
+  }
+
+  .logo-link {
+    flex-grow: 1;
+  }
+
+  .menu-links {
+    order: 0;
+    max-width: 330px;
+  }
+
+  .menu-links li {
+    max-width: 160px;
+  }
+
+  .menu-links a {
+    padding: 50px 0;
+    border-bottom: none;
+    border-top: 2px solid #f2f2f2;
+  }
+
+  .logo-link,
+  .resgistration-link {
+    padding: 0;
+  }
+
+  /* SEARCHING AREA */
+  /* ------------------------- */
+  .city-search-form {
+    margin: 20px 0;
+  }
+
+  .city-search-input {
+    width: 188px;
+  }
+
+  .search-btn-small {
+    display: none;
+  }
+
+  .search-btn {
+    border-radius: 0 15px 15px 0;
+  }
+
+  .search-btn-large {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.3em;
+    font-weight: bold;
+    height: 48px;
+    width: 135px;
+  }
+
+  .filters-area {
+    align-items: center;
+  }
+
+  .filters-area > span {
+    width: auto;
+    padding: 0 20px 0 0;
+    margin: 0;
+  }
+
+  .filter-item {
+    margin: 7px 20px 7px 0;
+  }
+
+  /* ACTIVITIES AREA */
+  /* ------------------------- */
+  .activities-area {
+    padding: 0;
+  }
+
+  .activities-area h2 {
+    padding: 0 0 0 20px;;
+  }
+
+  .activities-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  /* ACTIVITIES AREA */
+  /* ------------------------- */
+  .activites-card {
+    max-width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* MAIN PAGE */
+  /* ------------------------- */
+  .main-page {
+    margin: 0 50px;
+
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  /* MAIN ACCOMODATIONS AREA */
+  /* ------------------------- */
+  .main-accomodation-area {
+    order: -1;
+    background: #f2f2f2;
+    border-radius: 15px;
+    margin: 0 40px 0 0;
+    padding: 40px 10px 15px 40px;
+    max-width: 810px;
+  }
+
+  .main-accomodation-cards {
+    justify-content: center;
+  }
+
+  .main-accomodation-card {
+    max-width: 226px;
+    margin: 0 30px 30px 0;
+  }
+
+  /* MOST POPULAR AREA */
+  /* ------------------------- */
+  .most-popular-area {
+    padding: 40px 40px 0 40px;
+  }
+
+  .most-popular-card {
+    margin: 0 0 35px 0;
+  }
+
+  /* ACTIVITIES AREA */
+  /* ------------------------- */
+  .activities-area {
+    margin-top: 60px;
+    width: 100%;
+  }
+
+  .activities-cards {
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    max-height: 485px;
+  }
+
+  .activites-card {
+    margin: 0 0 40px 0;
+  }
+
+  .activites-card img {
+    height: 151px;
+  }
+
+  .full-height {
+    height: 445px;
+  }
+
+  .activites-card.full-height img {
+    height: 390px;
+  }
+}
