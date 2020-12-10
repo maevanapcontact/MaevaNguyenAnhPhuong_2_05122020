@@ -1,0 +1,97 @@
+@media screen and (min-width: 600px) {
+  /* PAGE HEADER */
+  /* ------------------------- */
+  .page-header,
+  .main-page {
+    margin: 0 50px;
+  }
+
+  /* PAGE NAV */
+  /* ------------------------- */
+  .page-nav {
+    justify-content: normal;
+  }
+
+  .logo-link {
+    flex-grow: 1;
+  }
+
+  .menu-links {
+    order: 0;
+    max-width: 330px;
+  }
+
+  .menu-links li {
+    max-width: 160px;
+  }
+
+  .menu-links a {
+    padding: 50px 0;
+    border-bottom: none;
+    border-top: 2px solid #f2f2f2;
+  }
+
+  .logo-link,
+  .resgistration-link {
+    padding: 0;
+  }
+
+  /* SEARCHING AREA */
+  /* ------------------------- */
+  .city-search-form {
+    margin: 20px 0;
+  }
+
+  .city-search-input {
+    width: 188px;
+  }
+
+  .search-btn-small {
+    display: none;
+  }
+
+  .search-btn {
+    border-radius: 0 15px 15px 0;
+  }
+
+  .search-btn-large {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.3em;
+    font-weight: bold;
+    height: 48px;
+    width: 135px;
+  }
+
+  .filters-area {
+    align-items: center;
+  }
+
+  .filters-area > span {
+    width: auto;
+    padding: 0 20px 0 0;
+    margin: 0;
+  }
+
+  .filter-item {
+    margin: 7px 20px 7px 0;
+  }
+
+  /* ACTIVITIES AREA */
+  /* ------------------------- */
+  .activities-area {
+    padding: 0;
+  }
+
+  .activities-area h2 {
+    padding: 0 0 0 20px;;
+  }
+
+  .activities-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,12 @@
+@media screen and (min-width: 420px) {
+  /* MOST POPULAR AREA */
+  /* ------------------------- */
+  .most-popular-area {
+    border-radius: 15px;
+    padding: 40px 40px 15px 40px;
+  }
+
+  .most-popular-card {
+    width: 326px;
+  }
+}

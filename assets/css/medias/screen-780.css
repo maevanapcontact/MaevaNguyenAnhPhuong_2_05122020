@@ -1,0 +1,9 @@
+@media screen and (min-width: 780px) {
+  /* ACTIVITIES AREA */
+  /* ------------------------- */
+  .activites-card {
+    max-width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
