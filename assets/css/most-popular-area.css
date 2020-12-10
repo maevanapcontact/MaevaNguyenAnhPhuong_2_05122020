@@ -1,0 +1,62 @@
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.most-popular-area {
+  background: #f2f2f2;
+  padding: 40px 20px 25px 20px;
+  max-width: 340px;
+}
+
+.most-popular-area header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 0 20px 0;
+}
+
+.header-icon {
+  font-size: 1.5em;
+}
+
+.most-popular-card {
+  padding: 7px;
+  margin: 0 0 10px 0;
+  max-width: 326px;
+}
+
+.most-popular-card a {
+  display: flex;
+}
+
+.most-popular-card img {
+  width: 128px;
+  height: 133px;
+  object-fit: cover;
+  border-radius: 10px 0 0 10px;
+}
+
+.most-popular-card-infos {
+  margin: 15px 0 10px 20px;
+  font-size: 0.8em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.most-popular-card-infos h3 {
+  margin: 0 0 5px 0;
+}
+
+.card-stars {
+  font-size: 0.8em;
+  color: #d9d9d9;
+}
+
+.stars-filled {
+  color: #0065fc;
+}

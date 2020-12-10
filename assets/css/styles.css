@@ -1,21 +1,46 @@
-/* GENERAL */
+/* -------------------------
+TABLE OF CONTENTS
+
+1. GENERAL
+2. PAGE NAV
+3. SEARCHING AREA
+4. MOST POPULAR AREA
+5. MAIN ACCOMODATION AREA
+6. ACTIVITIES AREA
+7. PAGE FOOTER
+8. MEDIA QUERIES
+------------------------- */
+
+
+/* 1. GENERAL */
 /* ------------------------- */
 @import 'general.css';
 
-/* PAGE HEADER */
+/* 2. PAGE NAV */
 /* ------------------------- */
-@import 'header.css';
+@import 'page-nav.css';
 
-/* MAIN PAGE */
+/* 3. SEARCHING AREA */
 /* ------------------------- */
-@import 'main-page.css';
+@import 'searching-area.css';
 
-/* PAGE FOOTER */
+/* 4. MOST POPULAR AREA */
 /* ------------------------- */
-@import 'footer.css';
+@import 'most-popular-area.css';
 
+/* 5. MAIN ACCOMODATION AREA */
+/* ------------------------- */
+@import 'main-accomodation-area.css';
 
-/* MEDIA QUERIES */
+/* 6. ACTIVITIES AREA */
+/* ------------------------- */
+@import 'activities-area.css';
+
+/* 7. PAGE FOOTER */
+/* ------------------------- */
+@import 'page-footer.css';
+
+/* 8. MEDIA QUERIES */
 /* ------------------------- */
 @import 'media-queries.css';
 
